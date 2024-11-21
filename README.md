@@ -1,5 +1,5 @@
 <a href="https://ads.atmosflix.in/">
-<img align="center" width=100% src="https://raw.githubusercontent.com/Sandip-Basak/Atmosflix/main/readme_images/1.jpg" alt="App Logo">
+<img align="center" width=100% src="https://raw.githubusercontent.com/Sandip-Basak/AI-Doctor/refs/heads/main/Images/AI%20Doctor.jpg" alt="App Logo">
 </a>
 
 
