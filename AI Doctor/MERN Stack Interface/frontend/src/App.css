@@ -1,0 +1,538 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+/* Header CSS */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+*.not i {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+header {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 10;
+  height: 70px;
+  align-items: center;
+}
+a{
+  text-decoration: none;
+}
+.letters {
+  padding-right: 2px;
+  font-size: 40px;
+  color: #ff357a;
+  font-family: "Varela Round", sans-serif;
+}
+.logo {
+  margin-top: 2.8px;
+  margin-left: 36px;
+}
+.btn {
+  width: 84px;
+  height: 34px;
+  border-radius: 10px;
+}
+.logIn {
+  background-color: aquamarine;
+  margin-right: 10px;
+  font-family: "Bangers", system-ui;
+  font-size: 15px;
+}
+.signup {
+  background-color: rgb(218, 9, 9);
+  color: aliceblue;
+  font-family: "Bangers", system-ui;
+  font-size: 15px;
+}
+.auth {
+  font-size: 32px;
+  padding-right: 10px;
+  margin-top: -5px;
+  margin-right: -18px;
+}
+.auth-btn{
+  text-decoration:none;
+  color:black;
+}
+.logout{
+  font-size: 25px;
+  text-decoration: none ;
+  padding:9px 15px;
+}
+
+/* Nav */
+.navigation {
+  position: fixed;  
+  top:7px;
+  right: 3px;
+  z-index: 20;
+  width:80px;
+  height:71px;
+  overflow: hidden;
+  border-radius: 40px;
+  transition: width 1s ease,height 1s ease ;
+}
+ ul{
+  width: inherit;
+  height:334px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ff357a;
+  border-radius: 40px;
+  padding:0 0;
+  margin-top: -10px;  
+  transition:background-color  1s ease;
+}
+ul li {
+  list-style: none;
+}
+.links a:hover{
+  color: lightblue;
+}
+ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+a:focus{
+  color: red;
+}
+.navigation:hover{
+  width: 400px;
+  height:334px;
+}
+.navigation:hover ul{
+  background-color:#fff172;
+}
+/* Hero */
+.hero-section {
+  background-image: url("../public/6929748.jpg");
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+.container {
+  max-width: 1300px;
+  height: 100%;
+  margin: 0 350px;
+  display: flex;
+}
+.hero-section-info {
+  width: 650px;
+  height: 100%;
+}
+.hero-section-image {
+  width: 650px;
+  height: 100%;
+}
+.hero-section-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.hero-info {
+  margin-bottom: -28px;
+}
+.info {
+  font-size: 67px;
+}
+.details {
+  font-size: 20px;
+  width: 75%;
+}
+.gettingIn {
+  border-radius: 5px;
+  width: 160px;
+  height: 50px;
+  font-family: "Bangers", system-ui;
+  font-size: 20px;
+}
+/* someInfo-Component */
+
+.site-introduction-container {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+
+.ai-doctor-intro-info {
+  width: 50%;
+  height: 77.7vh;
+  background-color: rgb(141, 210, 233);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ai-doctor-info {
+  font-size: 40px;
+  width: 80%;
+}
+.ai-doctor-fact {
+  width: 70%;
+}
+.ai-doctor-service-types {
+  width: 111%;
+  height: 20vh;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 13rem;
+  font-size: 20px;
+  text-align: center;
+}
+.ai-doctor-service-icon {
+  background-color: aliceblue;
+  border-radius: 30px;
+  width: 50px;
+  height: 50px;
+  margin-left: 37px;
+}
+.ai-doctor-service-text {
+  width: 124px;
+  height: 50px;
+}
+
+.fa-brain,
+.fa-heart,
+.fa-capsules,
+.fa-bacterium {
+  margin-top: 15px;
+}
+
+.ai-doctor-medicine {
+  width: 50%;
+  height: 77.7vh;
+  background-color: rgb(252, 251, 251);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.ai-doctor-solution {
+  font-size: 40px;
+  width: 80%;
+}
+
+.ai-doctor-solution-fact {
+  width: 70%;
+}
+.ai-doctor-solution-logo {
+  width: 70%;
+}
+.cross {
+  width: 50rem;
+  height: 40rem;
+  position: absolute;
+  left: 217px;
+  top: 46%;
+  transform: rotate(204deg);
+}
+.stheto {
+  width: 25rem;
+  position: absolute;
+  left: 51px;
+  transform: rotate(-47deg);
+}
+
+/* research-section */
+.research-section {
+  background-color: #dff1ff;
+}
+.research-section-container {
+  height: 70.7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -97px;
+}
+.research-info {
+  font-size: 4rem;
+}
+.research-additional-info {
+  margin-top: -32px;
+  width: 36%;
+}
+
+.research-paper {
+  padding-top: 21px;
+}
+
+.research-paper-button {
+  padding: 17px 43px;
+  border-radius: 20px;
+  background-color: rgb(152, 247, 152);
+}
+
+.picOne,
+.picTwo,
+.picThree {
+  position: absolute;
+}
+
+.one {
+  width: 230px;
+  transform: translate(-11rem, 26rem);
+}
+
+.two {
+  width: 230px;
+  transform: translateX(-45rem);
+}
+
+.three {
+  width: 278px;
+  transform: translate(650px, -1rem) rotate(45deg);
+}
+/* ai doctor attributes */
+.ai-doctor-attributes {
+  background-color: #dff1ff;
+  margin-top: -80px;
+}
+
+.grid-attributes {
+  display: grid;
+  grid-template-columns: 5rem 5rem 5rem;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+  margin-left: -108px;
+}
+.attr {
+  background-color: cadetblue;
+  width: 20rem;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.attr-content {
+  position: absolute;
+  width: 20rem;
+  height: 395px;
+  transition: 1s ease-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.attr-content:hover {
+  background-color: rgb(0, 0, 0, 0.6);
+}
+.attr-heading {
+  position: absolute;
+  color: #000080;
+  bottom: 31px;
+}
+.active {
+  transform: translateY(-500px);
+}
+.description,
+.second-description,
+.third-description {
+  width: 200px;
+  transform: translateY(500px);
+  color: white;
+  font-size: 18px;
+  font-family: "M PLUS 1 Code", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.first {
+  background-image: url("https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+}
+.second {
+  background-image: url("https://images.pexels.com/photos/4386467/pexels-photo-4386467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: 0px -47px;
+}
+.third {
+  background-image: url("https://images.pexels.com/photos/17485658/pexels-photo-17485658/free-photo-of-an-artist-s-illustration-of-artificial-intelligence-ai-this-image-depicts-how-ai-could-adapt-to-an-infinite-amount-of-uses-it-was-created-by-nidia-dias-as-part-of-the-visualising-ai-pr.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+  background-position: -40px 0px;
+}
+
+/* Auth */
+.auth-page{
+  width: 100%;
+  height: 100vh;
+  background-image: url('../public/logPhoto.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.auth-page-container
+{
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.auth-form form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  margin-top: -15px;
+  align-items: center;
+}
+.auth-form{
+  width: 26%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border:5px solid rgb(45, 173, 233);
+  border-radius: 50px;
+}
+
+.auth-heading{
+  font-size: 38px;
+}
+.username,.password,.email,.name{
+  width: 285px;
+  height: 50px;
+  border-radius:30px ;
+  padding-left:20px ;
+  font-size: 18px;
+  border: 0;
+}
+.submit-Button{
+  width: 310px;
+  height: 50px;
+  border-radius:30px ;
+  font-size: 18px;
+  background: linear-gradient(45deg, #ff357a, #fff172);
+  border: 0;
+}
+.other-Nav{
+  display: flex;
+  justify-content: space-between;
+  width: 315px;
+}
+.f-password,.toSignin,.tologin{
+  color: #ff357a;
+  font-size: 20px;
+}
+
+/* Spinner */
+.spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.3); /* semi-transparent */
+    z-index: 1000; /* high z-index to stay on top */
+}
+
+.spinner-container {
+    width: 50px;
+    height: 50px;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top-color: #3498db;
+    animation: spin 1s ease-in-out infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/* Balls */
+.balls-Container{
+  background-color: white;
+  height:36px;
+  margin-top: 100px;
+  width:67px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+
+}
+.round:nth-child(1)
+{
+  font-size: 10px;
+  animation: jump 0.5s ease infinite alternate;
+}
+.round:nth-child(2)
+{
+  font-size: 10px;
+  animation: jump 0.5s ease infinite alternate;
+}
+.round:nth-child(3)
+{
+  font-size: 10px;
+  animation: jump 0.5s ease infinite alternate;
+}
+
+@keyframes jump{
+  from{
+    transform: translateY(0);
+  }
+  to{
+    transform:translateY(-15px);
+  }
+}
+
+/* Footer */
+.footer{
+  width: 100%;
+  height: 25vh;
+  background-color: black;
+}
+.footer-container{
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.social-links{
+  width: 20%;
+  height: 25vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social{
+  width: 33px;
+  height: 33px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius:60px ;
+}
+.copyright-Section{
+  color: #dff1ff;
+}

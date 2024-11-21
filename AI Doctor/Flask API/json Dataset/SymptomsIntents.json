@@ -1,0 +1,2648 @@
+{
+    "intents": [
+        {
+            "tag": "itching",
+            "patterns": [
+                "itching",
+                "itch",
+                "tingle",
+                "be irritated",
+                "irritating skin",
+                "sting",
+                "prickle"
+            ],
+            "responses": [
+                "itching"
+            ]
+        },
+        {
+            "tag": "skin rash",
+            "patterns": [
+                "skin rash",
+                "rash",
+                "spots",
+                "nettle rash",
+                "heat rash",
+                "outbreak of spots",
+                "skin eruption"
+            ],
+            "responses": [
+                "skin_rash"
+            ]
+        },
+
+        {
+            "tag": "nodal skin eruptions",
+            "patterns":  [
+                "nodules",
+                "nodal skin eruptions",
+                "raised skin lesions",
+                "abscesses",
+                "folliculitis",
+                "Skin lesions",
+                "Dermatological manifestations",
+                "Cutaneous eruptions",
+                "Rashes"
+            ], 
+            "responses": [
+                "nodal_skin_eruptions"
+            ]
+        },
+        {
+            "tag": "continuous sneezing",
+            "patterns":  [
+                "paroxysmal sneezing",
+                "continuous sneezing",
+                "excessive sneezing",
+                "sneezes",
+                "Prolonged sneezing",
+                "Nonstop sneezing",
+                "Persistent sneezing",
+                "Uninterrupted sneezing",
+                "Endless sneezing",
+                "Constant sneezing",
+                "Consecutive sneezing",
+                "Frequent sneezing",
+                "Repetitive sneezing",
+                "Incessant sneezing"
+            ],
+            "responses": [
+                "continuous_sneezing"
+            ]
+            
+        },
+        {
+            "tag": "shivering",
+            "patterns": [
+              "tremors",
+              "shivering",
+              "rhythmic contraction",  
+              "shaking",
+              "Trembling",
+              "Quivering",
+              "Shaking",
+              "Vibrating",
+              "Quaking",
+              "Convulsing",
+              "Shuddering",
+              "Palpitating"
+            ],
+            "responses": [
+                "shivering"
+            ]
+        },
+
+        {
+            "tag": "chills",
+            "patterns": [
+                "shaking",
+                "chills",
+                "shivering",
+                "rigors",
+                "Shivering",
+                "Cold shivers",
+                "Goosebumps",
+                "Tremors",
+                "Shuddering",
+                "Quivering",
+                "Cold sweats",
+                "Cold tremors",
+                "Frisson"
+            ],
+            "responses": [
+                "chills"
+            ]
+        },
+        {
+            "tag": "joint pain",
+            "patterns": [
+                "arthralgia",
+                "joint pain",
+                "Joint soreness",
+                "Joint discomfort",
+                "Joint ache",
+                "Joint tenderness",
+                "Joint stiffness",
+                "Joint inflammation",
+                "Joint swelling",
+                "Joint throbbing",
+                "Joint agony"
+            ],
+            "responses": [
+                "joint_pain"
+            ]
+
+        },
+        {
+            "tag": "stomach pain",
+            "patterns": [
+                "abdominal pain",
+                "stomach pain",
+                "stomachache",
+                "belly pain",
+                "Gastric discomfort",
+                "Tummy ache",
+                "Bellyache",
+                "Dyspepsia",
+                "Indigestion",
+                "Upset stomach",
+                "Gastric distress",
+                "Gastrointestinal pain",
+                "Colic"
+            ],
+            "responses": [
+                "stomach_pain"
+            ]
+
+        },
+        {
+            "tag": "acidity",
+            "patterns": [
+                "acid reflux",
+                "acidity",
+                "heartburn",
+                "burning sensation in the chest",   
+                "Acid indigestion",
+                "Acid reflux",
+                "Sour stomach",
+                "Gastric reflux"
+            ],
+            "responses": [
+                "acidity"
+            ]
+
+        },
+        {
+            "tag": "ulcers on tongue",
+            "patterns": [
+                "canker sores",
+                "ulcers on tongue",
+                "Tongue sores",
+                "Aphthous ulcers",
+                "Mouth ulcers",
+                "Oral ulcers",
+                "Stomatitis",
+                "Tongue blisters",
+                "Tongue lesions",
+                "Tongue wounds",
+                "Tongue ulcers",
+                "chala"
+            ],
+            "responses": [
+                "ulcers_on_tongue"
+            ]
+
+        },
+        {
+            "tag": "muscle wasting",
+            "patterns": [
+                "muscle wasting",
+                "muscle atrophy",
+                "shrinkage of muscle ",
+                "Muscle loss",
+                "Muscle degeneration",
+                "Muscle wasting syndrome",
+                "Muscle catabolism",
+                "Sarcopenia"
+            ],
+            "responses": [
+                "muscle_wasting"
+            ]
+
+        },
+        {
+            "tag": "vomiting",
+            "patterns": [
+                "vomiting",
+                "emesis",
+                "vomit",
+                "gastrointestinal disorders",
+                "puke",
+                "Throwing up",
+                "Puking",
+                "Regurgitating",
+                "Upchucking",
+                "Retching",
+                "Expelling stomach contents",
+                "Barfing",
+                "Spewing",
+                "Discharging stomach contents",
+                "Emitting gastric contents"
+            ],
+            "responses": [
+                "vomiting"
+            ]
+
+        },
+        {
+            "tag": "burning micturition",
+            "patterns": [
+                "burning micturition",
+                "dysuria",
+                "UTIs",
+                "Painful urination",
+                "Burning sensation during urination",
+                "Painful micturition",
+                "Painful voiding",
+                "Urinary burning",
+                "Urinary discomfort",
+                "Painful bladder"
+              
+            ],
+            "responses": [
+                "burning_micturition"
+            ]
+
+        },
+        {
+            "tag": "spotting urination",
+            "patterns": [
+                "spotting urination",
+                "Hematuria",
+                "Blood in urine",
+                "Urinary bleeding",
+                "Red-tinged urine",
+                "Microscopic hematuria",
+                "Gross hematuria",
+                "Hemoglobinuria",
+                "Urinary tract bleeding",
+                "Pink-tinged urine",
+                "Blood-tinged urine"
+              
+            ],
+            "responses": [
+                "spotting_urination"
+            ]
+
+        },
+        {
+            "tag": "fatigue",
+            "patterns": [
+                "Fatigue",
+                "Tiredness",
+                "Exhaustion",
+                "Weariness",
+                "Lethargy",
+                "Weakness",
+                "Burnout",
+                "Drained",
+                "Depletion",
+                "Drowsiness",
+                "Enervation"
+              
+            ],
+            "responses": [
+                "fatigue"
+            ]
+
+        },
+        {
+            "tag": "weight gain",
+            "patterns": [
+                "weight gain",
+                "obesity",
+                "overweight",
+                "excess body fat",
+                "Weight increase",
+                "Putting on weight",
+                "Gaining pounds",
+                "Adding extra pounds",
+                "Bulking up",
+                "Building body mass",
+                "Increasing body weight",
+                "Growing heavier",
+                "Packing on the pounds"
+              
+            ],
+            "responses": [
+                "weight_gain"
+            ]
+
+        },
+        {
+            "tag": "anxiety",
+            "patterns": [
+                "feeling of uneasiness",
+                "anxiety",
+                "Worry",
+                "Nervousness",
+                "Tension",
+                "Unease",
+                "Apprehension",
+                "Concern",
+                "Fear",
+                "Stress",
+                "Restlessness",
+                "Jitters"
+              
+            ],
+            "responses": [
+                "anxiety"
+            ]
+
+        },
+        {
+            "tag": "cold hands and feets",
+            "patterns": [
+                "cold hands and feets",
+                "cold extremities",
+                "Chilly extremities",
+                "Frosty hands and feet",
+                "Numb hands and feet",
+                "Freezing appendages",
+                "Icy hands and feet",
+                "Cold fingers and toes",
+                "Frigid extremities",
+                "Gelid hands and feet",
+                "Frozen appendages",
+                "Cool hands and feet"
+              
+            ],
+            "responses": [
+                "cold_hands_and_feets"
+            ]
+
+        },
+        {
+            "tag": "mood swings",
+            "patterns": [
+                "mood swings",
+                "emotional lability",
+                "affective instability",
+                "Emotional instability",
+                "Fluctuating emotions",
+                "Mood changes",
+                "Emotional rollercoaster",
+                "Whiplash emotions",
+                "Oscillating moods",
+                "Mercurial temperament",
+                "Mood fluctuations",
+                "Erratic emotions",
+                "Rapid mood shifts"
+              
+            ],
+            "responses": [
+                "mood_swings"
+            ]
+
+        },
+        {
+            "tag": "weight loss",
+            "patterns": [
+                "weight loss",
+                "slimming",
+                "losing weight",
+                "reduced body weight",
+                "Slimming down",
+                "Shedding pounds",
+                "Losing body fat",
+                "Dropping excess weight",
+                "Trim down",
+                "Fat reduction",
+                "Cutting down on pounds",
+                "Getting leaner"
+            ],
+            "responses": [
+                "weight_loss"
+            ]
+
+        },
+        {
+            "tag": "restlessness",
+            "patterns": [
+                "restlessness",
+                "agitation",
+                "hyperactivity",
+                "difficulty sitting still",
+                "excessive movement",
+                "Fidgetiness",
+                "Uneasiness",
+                "Impatience",
+                "Disquiet",
+                "Anxiety",
+                "Restiveness",
+                "Jitters",
+                "Tension",
+                "Edginess"
+            ],
+            "responses": [
+                "restlessness"
+            ]
+
+        },
+        {
+            "tag": "lethargy",
+            "patterns": [
+                "lethargy ",
+                "sluggishness",
+                "extreme tiredness",
+                "lack of energy",
+                "Laziness",
+                "Inactivity",
+                "Torpor",
+                "Drowsiness",
+                "Fatigue",
+                "Tiredness",
+                "Languor",
+                "Enervation",
+                "Indolence"
+            ],
+            "responses": [
+                "lethargy"
+            ]
+
+        },
+        {
+            "tag": "patches in throat",
+            "patterns": [
+                "patches in throat",
+                "sore throat",
+                "pharyngitis",
+                "irritation of the throat",
+                "scratchy feeling in the throat",
+                "White patches",
+                "Lesions in the throat",
+                "Spots in the throat",
+                "Coated throat",
+                "Discoloration in the throat",
+                "Sore throat patches",
+                "Ulcers in the throat",
+                "Inflamed patches in the throat",
+                "Irritated throat spots",
+                "Swollen areas in the throat"
+            ],
+            "responses": [
+                "patches_in_throat"
+            ]
+
+        },
+        {
+            "tag": "irregular sugar level",
+            "patterns": [
+                "irregular sugar level",
+                "blood sugar",
+                "instability in blood sugar",
+                "hyperglycemia",
+                "hypoglycemia",
+                "Fluctuating blood sugar levels",
+                "Unstable blood glucose levels",
+                "Inconsistent sugar levels",
+                "Variations in blood sugar levels",
+                "Unpredictable glucose levels",
+                "Abnormal sugar levels",
+                "Erratic blood sugar levels",
+                "Unsteady glucose levels",
+                "Irregular glycemic control",
+                "Uncontrolled blood sugar levels"
+            ],
+            "responses": [
+                "irregular_sugar_level"
+            ]
+
+        },
+        {
+            "tag": "cough",
+            "patterns": [
+                "cough",
+                "respiratory infections",
+                "Bronchitis",
+                "Pertussis",
+                "Hack",
+                "Coughing",
+                "Wheeze",
+                "Throat clearing",
+                "Barking cough",
+                "Dry cough",
+                "Productive cough",
+                "Hacking cough",
+                "Persistent cough",
+                "Tickling cough"
+              
+            ],
+            "responses": [
+                "cough"
+            ]
+
+        },
+        {
+            "tag": "high fever",
+            "patterns": [
+                "high fever",
+                "hyperthermia",
+                "abnormal increase in body temperature",
+                "Pyrexia",
+                "Elevated body temperature",
+                "Febrile state",
+                "High-grade fever",
+                "Severe fever",
+                "Intense fever",
+                "Elevated temperature",
+                "High body heat",
+                "Feverish condition"
+            ],
+            "responses": [
+                "high_fever"
+            ]
+
+        },
+        {
+            "tag": "sunken eyes",
+            "patterns": [
+                "sunken eyes",
+                "Hollow eyes",
+                "Deep-set eyes",
+                "Recessed eyes",
+                "Gaunt eyes",
+                "Caved-in eyes",
+                "Sinking eye sockets",
+                "Hollowed-out eyes",
+                "Concave eyes",
+                "Shrunken eyes",
+                "Emaciated eyes"
+              
+              
+            ],
+            "responses": [
+                "sunken_eyes"
+            ]
+
+        },
+        {
+            "tag": "breathlessness ",
+            "patterns": [
+                "breathlessness",
+                "dyspnea",
+                "discomfort in breathing",
+                "Shortness of breath",
+                "Difficulty breathing",
+                "Labored breathing",
+                "Breathlessness",
+                "Panting",
+                "Gasping for air",
+                "Wheezing",
+                "Respiratory distress",
+                "Air hunger"
+              
+            ],
+            "responses": [
+                "breathlessness"
+            ]
+
+        },
+        {
+            "tag": "sweating",
+            "patterns": [
+                "sweating",
+                "Perspiration",
+                "Sweating profusely",
+                "Sweaty",
+                "Beads of sweat",
+                "Sweating heavily",
+                "Sweating buckets",
+                "Sweating bullets",
+                "Excessive sweating",
+                "Sweating excessively",
+                "Sweating like a pig"
+              
+              
+            ],
+            "responses": [
+                "sweating"
+            ]
+
+        },
+        {
+            "tag": "dehydration",
+            "patterns": [
+                "dehydration",
+                "Excessive fluid loss",
+                "Lack of hydration",
+                "Fluid depletion",
+                "Severe thirst",
+                "Water deprivation",
+                "Dryness",
+                "Desiccation",
+                "Hypohydration",
+                "Fluid deficiency",
+                "Depleted body fluids"
+              
+              
+            ],
+            "responses": [
+                "dehydration"
+            ]
+
+        },
+        {
+            "tag": "indigestion",
+            "patterns": [
+                "indigestion",
+                "dyspepsia",
+                "bloating",
+                "Upset stomach",
+                "Stomach discomfort",
+                "Gastric distress",
+                "Acid indigestion",
+                "Heartburn",
+                "Gastric upset",
+                "Digestive discomfort",
+                "Abdominal discomfort",
+                "Gastrointestinal disturbance"
+            ],
+            "responses": [
+                "indigestion"
+            ]
+
+        },
+        {
+            "tag": "headache",
+            "patterns": [
+                "headache",
+                "Head pain",
+                "Head discomfort",
+                "Cranial pain",
+                "Migraine",
+                "Tension headache",
+                "Cluster headache",
+                "Sinus headache",
+                "Throbbing head pain",
+                "Pounding headache"
+              
+              
+            ],
+            "responses": [
+                "headache"
+            ]
+
+        },
+        {
+            "tag": "yellowish skin",
+            "patterns": [
+                "yellowish skin",
+                "Jaundiced skin",
+                "Yellow skin tone",
+                "Yellow discoloration",
+                "Sallow skin",
+                "Pale yellow skin",
+                "Yellowish complexion",
+                "Icteric skin",
+                "Yellowish hue",
+                "Yellow tinge to the skin",
+                "Yellow pallor"
+              
+              
+            ],
+            "responses": [
+                "yellowish_skin"
+            ]
+
+        },
+        {
+            "tag": "dark urine",
+            "patterns": [
+                "dark urine",
+                "black urine",
+                "Tea-colored urine",
+                "Brown urine",
+                "Dark amber urine",
+                "Dark yellow urine",
+                "Deep-colored urine",
+                "Darkened urine",
+                "Dark-hued urine",
+                "Darkened pee",
+                "Concentrated urine",
+                "Abnormally colored urine"              
+              
+            ],
+            "responses": [
+                "dark_urine"
+            ]
+
+        },
+        {
+            "tag": "nausea",
+            "patterns": [
+                "nausea",
+                "Queasiness",
+                "Upset stomach",
+                "Vomiting sensation",
+                "Stomach discomfort",
+                "Nauseousness",
+                "Stomach queasiness",
+                "Sick to the stomach",
+                "Nauseated feeling",
+                "Feeling of being unwell"
+              
+              
+            ],
+            "responses": [
+                "nausea"
+            ]
+
+        },
+        {
+            "tag": "loss of appetite",
+            "patterns": [
+                "loss of appetite",
+                "Decreased appetite",
+                "Lack of appetite",
+                "Appetite loss",
+                "Reduced food intake",
+                "Diminished hunger",
+                "Poor appetite",
+                "Reduced desire to eat",
+                "Decreased food cravings",
+                "Loss of interest in food",
+                "Appetite suppression"
+              
+              
+            ],
+            "responses": [
+                "loss_of_appetite"
+            ]
+
+        },
+        {
+            "tag": "pain behind the eyes",
+            "patterns": [
+                "pain behind the eyes",
+                "Retro-orbital pain",
+                "Eye socket pain",
+                "Ocular pain",
+                "Pain in the back of the eyes",
+                "Eye discomfort",
+                "Painful eyes",
+                "Eye pressure",
+                "Eye ache",
+                "Painful eye sockets",
+                "Eye soreness"
+              
+              
+            ],
+            "responses": [
+                "pain_behind_the_eyes"
+            ]
+
+        },
+        {
+            "tag": "back pain",
+            "patterns": [
+                "backpain",
+                "back pain",
+                "spinal problems",
+                "pain in the back",
+                "Lumbar pain",
+                "Spinal discomfort",
+                "Dorsalgia",
+                "Lower back pain",
+                "Upper back pain",
+                "Backache",
+                "Spine pain",
+                "Back discomfort",
+                "Musculoskeletal pain",
+                "Sore back"
+              
+            ],
+            "responses": [
+                "back_pain"
+            ]
+
+        },
+        {
+            "tag": "constipation",
+            "patterns": [
+                "constipation",
+                "cant poop",
+                "hard poop",
+                "severe stomachache while passing the stool",
+                "Difficulty passing stool",
+                "Bowel irregularity",
+                "Infrequent bowel movements",
+                "Hard stools",
+                "Trouble with bowel movements",
+                "Reduced bowel motility",
+                "Stool retention",
+                "Incomplete evacuation",
+                "Fecal impaction",
+                "Blocked bowels"
+                
+              
+              
+            ],
+            "responses": [
+                "constipation"
+            ]
+
+        },
+        {
+            "tag": "abdominal pain",
+            "patterns": [
+                "abdominal pain",
+                "Stomach ache",
+                "Belly pain",
+                "Abdominal discomfort",
+                "Tummy ache",
+                "Stomach pain",
+                "Gastric pain",
+                "Abdominal cramps",
+                "Bellyache",
+                "Gut pain",
+                "Abdominal soreness"
+              
+              
+            ],
+            "responses": [
+                "abdominal_pain"
+            ]
+
+        },
+        {
+            "tag": "diarrhea",
+            "patterns": [
+                "diarrhea",
+                "loose motion",
+                "excessive passing of stool",
+                "frequently pooping",
+                "Loose stools",
+                "Runny stools",
+                "Watery bowel movements",
+                "Frequent bowel movements",
+                "Diarrheal episodes",
+                "Diarrheal condition",
+                "Bowel urgency",
+                "Diarrheal illness",
+                "Diarrheal syndrome",
+                "Diarrheic state"
+              
+            ],
+            "responses": [
+                "diarrhoea"
+            ]
+
+        },
+        {
+            "tag": "mild fever",
+            "patterns": [
+                "mild fever",
+                "Low-grade fever",
+                "Slight fever",
+                "Subfebrile temperature",
+                "Mild pyrexia",
+                "Elevated body temperature",
+                "Low-level fever",
+                "Febrile state",
+                "Subfebrile condition",
+                "Mild feverishness",
+                "Low-grade pyrexia"
+              
+              
+            ],
+            "responses": [
+                "mild_fever"
+            ]
+
+        },
+        {
+            "tag": "yellow urine",
+            "patterns": [
+                "yellow urine",
+                "yellow pee",
+                "Amber-colored urine",
+                "Golden urine",
+                "Dark yellow urine",
+                "Yellowish urine",
+                "Deep yellow urine",
+                "Yellow-hued urine",
+                "Yellowish-brown urine",
+                "Yellow-tinged urine",
+                "Straw-colored urine",
+                "Pale yellow urine"
+              
+              
+            ],
+            "responses": [
+                "yellow_urine"
+            ]
+
+        },
+        {
+            "tag": "yellowing of eyes",
+            "patterns": [
+                "yellowing of eyes",
+                "Jaundiced eyes",
+                "Scleral icterus",
+                "Yellowed sclerae",
+                "Ocular jaundice",
+                "Eye discoloration",
+                "Yellowish eyes",
+                "Icteric eyes",
+                "Eye yellowing",
+                "Yellowish sclerae",
+                "Eye jaundice"
+              
+              
+            ],
+            "responses": [
+                "yellowing_of_eyes"
+            ]
+
+        },
+        {
+            "tag": "acute liver failure",
+            "patterns": [
+                "acute liver failure",
+                "Fulminant liver failure",
+                "Rapid liver failure",
+                "Sudden liver failure",
+                "Acute hepatic failure",
+                "Severe liver dysfunction",
+                "Acute liver collapse",
+                "Acute hepatic insufficiency",
+                "Rapid liver decompensation",
+                "Acute liver necrosis",
+                "Acute liver injury with failure"
+              
+            ],
+            "responses": [
+                "acute_liver_failure"
+            ]
+
+        },
+        {
+            "tag": "fluid overload",
+            "patterns": [
+                "fluid overload",
+                "Water retention",
+                "Edema",
+                "Fluid retention",
+                "Retained fluids",
+                "Swelling due to fluid accumulation",
+                "Excessive fluid buildup",
+                "Fluid overload syndrome",
+                "Retained water",
+                "Edematous condition",
+                "Excess fluid volume"
+              
+              
+            ],
+            "responses": [
+                "fluid_overload"
+            ]
+
+        },
+        {
+            "tag": "swelling of stomach",
+            "patterns": [
+                "swelling of stomach",
+                "Abdominal bloating",
+                "Distended abdomen",
+                "Swollen belly",
+                "Stomach distention",
+                "Abdominal swelling",
+                "Bloated stomach",
+                "Enlarged abdomen",
+                "Tummy swelling",
+                "Stomach bloat",
+                "Abdominal puffiness"
+            ],
+            "responses": [
+                "swelling_of_stomach"
+            ]
+
+        },
+        {
+            "tag": "swelled lymph nodes",
+            "patterns": [
+                "Enlarged lymph nodes",
+                "Inflamed lymph nodes",
+                "Lymphadenopathy",
+                "Lymphadenitis",
+                "Lymph node swelling",
+                "Lymph node enlargement",
+                "swelled lymph nodes"
+            ],
+            "responses": [
+                "swelled_lymph_nodes"
+            ]
+
+        },
+        {
+            "tag": "malaise",
+            "patterns": [
+                "Discomfort",
+                "Unease",
+                "Lethargy",
+                "Fatigue",
+                "Apathy",
+                "malaise"
+            ],
+            "responses": [
+                "malaise"
+            ]
+
+        }
+        ,
+        {
+            "tag": "blurred and distorted vision",
+            "patterns": [
+                "blurred and distorted vision",
+                "Unclear vision",
+                "Hazy vision",
+                "Fuzzy vision",
+                "Out of focus vision",
+                "Indistinct vision",
+                "Warped vision",
+                "Deformed vision",
+                "Misshapen vision",
+                "Twisted vision",
+                "Altered vision"
+            ],
+            "responses": [
+                "blurred_and_distorted_vision"
+            ]
+
+        }
+        ,
+        {
+            "tag": "phlegm",
+            "patterns": [
+                "phlegm",
+                "Mucus",
+                "Sputum",
+                "Spit",
+                "Secretion",
+                "Excretion"
+            ],
+            "responses": [
+                "phlegm"
+            ]
+
+        }
+        ,
+        {
+            "tag": "throat irritation",
+            "patterns": [
+                "throat irritation",
+                "Sore throat",
+                "Throat pain",
+                "Throat discomfort",
+                "Throat inflammation",
+                "Throat scratchiness",
+                "Throat tickle",
+                "Throat burning",
+                "Throat soreness",
+                "Throat rawness",
+                "Throat dryness"
+            ],
+            "responses": [
+                "throat_irritation"
+            ]
+
+        }
+        ,
+        {
+            "tag": "redness of eyes",
+            "patterns": [
+                "redness of eyes",
+                "Bloodshot eyes",
+                "Ocular inflammation",
+                "Conjunctival redness",
+                "Eye redness",
+                "Red eyes",
+                "Ocular redness",
+                "Eye irritation"
+            ],
+            "responses": [
+                "redness_of_eyes"
+            ]
+
+        }
+        ,
+        {
+            "tag": "sinus pressure",
+            "patterns": [
+                "sinus pressure",
+                "Sinus congestion",
+                "Sinus discomfort",
+                "Sinus pain",
+                "Sinus headache",
+                "Sinus fullness",
+                "Sinus tension"
+            ],
+            "responses": [
+                "sinus_pressure"
+            ]
+
+        }
+        ,
+        {
+            "tag": "runny nose",
+            "patterns": [
+                "runny nose",
+                "Stuffy nose",
+                "Nasal congestion",
+                "Rhinorrhea",
+                "Nasal discharge",
+                "Sniffles",
+                "Drippy nose",
+                "Postnasal drip"
+            ],
+            "responses": [
+                "runny_nose"
+            ]
+
+        }
+        ,
+        {
+            "tag": "congestion",
+            "patterns": [
+                "congestion",
+                "Blockage",
+                "Obstruction",
+                "Stuffy nose",
+                "Nasal congestion",
+                "Sinus congestion"
+            ],
+            "responses": [
+                "congestion"
+            ]
+
+        }
+        ,
+        {
+            "tag": "chest pain",
+            "patterns": [
+                "chest pain",
+                "Heart attack",
+                "Angina",
+                "Cardiac pain",
+                "Pectoralgia",
+                "Cardiac discomfort",
+                "Anginal syndrome",
+                "Sternalgia",
+                "Squeezing sensation in the chest",
+                "Ischemic chest pain",
+                "Chest tightness"
+            ],
+            "responses": [
+                "chest_pain"
+            ]
+
+        }
+        ,
+        {
+            "tag": "weakness in limbs",
+            "patterns": [
+                "weakness in limbs",
+                "Fatigue",
+                "Debility",
+                "Lethargy",
+                "Asthenia",
+                "Muscle weakness",
+                "Lack of strength",
+                "Feebleness",
+                "Reduced physical power",
+                "Diminished muscular ability",
+                "Impaired limb strength"
+            ],
+            "responses": [
+                "weakness_in_limbs"
+            ]
+
+        }
+        ,
+        {
+            "tag": "fast heart rate",
+            "patterns": [
+                "fast heart rate",
+                "Rapid heart rate",
+                "Elevated heart rate",
+                "Quickened heart rate",
+                "Tachycardia",
+                "Racing heart",
+                "Accelerated heart rate",
+                "Increased heart rate",
+                "Swift heart rate",
+                "Speedy heart rate",
+                "Hasty heart rate"
+            ],
+            "responses": [
+                "fast_heart_rate"
+            ]
+
+        }
+        ,
+        {
+            "tag": "pain during bowel movements",
+            "patterns": [
+                "pain during bowel movements",
+                "Discomfort during defecation",
+                "Painful defecation",
+                "Anal pain during bowel movements",
+                "Bowel movement discomfort",
+                "Painful passage of stool"
+            ],
+            "responses": [
+                "pain_during_bowel_movements"
+            ]
+
+        }
+        ,
+        {
+            "tag": "pain in anal region",
+            "patterns": [
+                "pain in anal region",
+                "Anal discomfort",
+                "Anal soreness",
+                "Anus pain",
+                "Rectal pain",
+                "Perianal pain",
+                "Proctalgia",
+                "Anal ache",
+                "Anal twinge",
+                "Anal distress",
+                "Rectal discomfort"
+            ],
+            "responses": [
+                "pain_in_anal_region"
+            ]
+
+        }
+        ,
+        {
+            "tag": "bloody stool",
+            "patterns": [
+                "bloody stool",
+                "Hematochezia",
+                "Rectal bleeding",
+                "Bloody feces",
+                " Blood in the stool",
+                "Stools with visible blood",
+                "Lower gastrointestinal bleeding"
+            ],
+            "responses": [
+                "bloody_stool"
+            ]
+
+        }
+        ,
+        {
+            "tag": "irritation in anus",
+            "patterns": [
+                "irritation in anus",
+                "Anal discomfort",
+                "Anus irritation",
+                "Rectal irritation",
+                "Anal itching",
+                " Pruritus ani",
+                "Rectal itching",
+                "Anal soreness",
+                "Itchy anus",
+                "Perianal irritation",
+                "Anal redness"
+            ],
+            "responses": [
+                "irritation_in_anus"
+            ]
+
+        }
+        ,
+        {
+            "tag": "neck pain",
+            "patterns": [
+                "neck pain",
+                "Cervical pain",
+                "Nape pain",
+                "Cervicalgia",
+                "Neck discomfort",
+                "Stiff neck",
+                "Neck ache",
+                "Sore neck"
+            ],
+            "responses": [
+                "neck_pain"
+            ]
+
+        }
+        ,
+        {
+            "tag": "dizziness",
+            "patterns": [
+                "dizziness",
+                "Vertigo",
+                "Lightheadedness",
+                "Giddiness",
+                "Wooziness",
+                "Unsteadiness",
+                "Faintness"
+            ],
+            "responses": [
+                "dizziness"
+            ]
+
+        }
+        ,
+        {
+            "tag": "cramps",
+            "patterns": [
+                "cramp",
+                "cramps",
+                "Spasms",
+                "Twinges",
+                "Pains",
+                "Contractions",
+                "Stitches",
+                "Charley horse",
+                "Muscle spasms",
+                "Aches",
+                "Squeezes",
+                "Tension"
+            ],
+            "responses": [
+                "cramps"
+            ]
+
+        }
+        ,
+        {
+            "tag": "bruising",
+            "patterns": [
+                "bruising",
+                "Contusion",
+                "Injury",
+                "Trauma",
+                "Ecchymosis",
+                "Hematoma",
+                "Black and blue mark",
+                "Swelling",
+                "Black eye",
+                "Blunt force injury",
+                "Wound"
+            ],
+            "responses": [
+                "bruising"
+            ]
+
+        }
+        ,
+        {
+            "tag": "obesity",
+            "patterns": [
+                "obesity",
+                "Excessive weight",
+                "Overweight",
+                "Fatness",
+                "Corpulence",
+                "Stoutness",
+                "Plump",
+                "Chubby",
+                "Fat",
+                "Corpulent",
+                "Rotund",
+                "Portly",
+                "Bulky",
+                "Obese"
+            ],
+            "responses": [
+                "obesity"
+            ]
+
+        }
+        ,
+        {
+            "tag": "swollen legs",
+            "patterns": [
+                "swollen legs",
+                "Edematous legs",
+                "Bloated legs",
+                "Fluid-filled legs",
+                "Enlarged legs",
+                "Puffy legs",
+                "Waterlogged legs",
+                "Thickened legs",
+                "Distended legs",
+                "Inflamed legs",
+                "Swelling in the lower extremities"
+            ],
+            "responses": [
+                "swollen_legs"
+            ]
+
+        }
+        ,
+        {
+            "tag": "swollen blood vessels",
+            "patterns": [
+                "swollen blood vessels",
+                "Dilated blood vessels",
+                "Engorged blood vessels",
+                "Enlarged blood vessels",
+                "Varicose veins",
+                "Spider veins",
+                "Bulging blood vessels",
+                "Vascular distension",
+                "Vascular congestion"
+            ],
+            "responses": [
+                "swollen_blood_vessels"
+            ]
+
+        }
+        ,
+        {
+            "tag": "puffy face and eyes",
+            "patterns": [
+                "puffy face and eyes",
+                "Swollen face and eyes",
+                "Bloated face and eyes",
+                "Inflamed face and eyes",
+                "Waterlogged face and eyes",
+                "Distended face and eyes",
+                "Engorged face and eyes",
+                "Edematous face and eyes",
+                "Bulging face and eyes",
+                "Turgid face and eyes",
+                "Blotchy face and eyes"
+            ],
+            "responses": [
+                "puffy_face_and_eyes"
+            ]
+
+        }
+        ,
+        {
+            "tag": "enlarged thyroid",
+            "patterns": [
+                "enlarged thyroid",
+                "Swollen thyroid",
+                "Enlarged goiter",
+                "Thyroid hypertrophy",
+                "Thyroid hyperplasia",
+                "Thyroid nodules",
+                "Thyromegaly",
+                "Goiter",
+                "Thyroid gland enlargement",
+                "An enlarged thyroid"
+            ],
+            "responses": [
+                "enlarged_thyroid"
+            ]
+
+        }
+        ,
+        {
+            "tag": "brittle nails",
+            "patterns": [
+                "brittle nails",
+                "Fragile nails",
+                "Weak nails",
+                "Easily breakable nails",
+                "Delicate nails",
+                "Crumbly nails",
+                "Splitting nails",
+                "Thin nails"
+            ],
+            "responses": [
+                "brittle_nails"
+            ]
+
+        }
+        ,
+        {
+            "tag": "swollen extremeties",
+            "patterns": [
+                "swollen extremeties",
+                "Edematous limbs",
+                "Puffy limbs",
+                "Enlarged appendages",
+                "Distended extremities",
+                "Swelling in hands and feet",
+                "Fluid retention in limbs",
+                "Bloated arms and legs",
+                "Bulging extremities",
+                "Engorged appendages",
+                "Thickened hands and feet"
+                
+            ],
+            "responses": [
+                "swollen_extremeties"
+            ]
+
+        }
+        ,
+        {
+            "tag": "excessive hunger",
+            "patterns": [
+                "excessive hunger",
+                "Insatiable appetite",
+                "Voracious hunger",
+                "Uncontrollable craving for food",
+                "Constant need to eat",
+                "Overwhelming hunger",
+                "Intense or extreme hunger"
+            ],
+            "responses": [
+                "excessive_hunger"
+            ]
+
+        }
+        ,
+        {
+            "tag": "extra marital contacts",
+            "patterns": [
+                "extra marital contacts",
+                "Sores, bumps around the genitals, mouth, anus, buttocks, thighs",
+                "Pain or discomfort during sexual activity, urination, or bowel movements",
+                "Unusual Vaginal discharge that has a bad odor, different in color or amount than usual",
+                "Burning sensation During urination or ejaculation",
+                "Bleeding between periods or after sexual intercourse"
+            ],
+            "responses": [
+                "extra_marital_contacts"
+            ]
+
+        }
+        ,
+        {
+            "tag": "drying and tingling lips",
+            "patterns": [
+                "drying and tingling lips",
+                "Dehydrating lips",
+                "Desiccating lips",
+                "Parching lips",
+                "Making lips dry",
+                "Prickling lips",
+                "Smarting lips",
+                "Tickling lips",
+                "Paresthesia in lips"
+            ],
+            "responses": [
+                "drying_and_tingling_lips"
+            ]
+
+        }
+        ,
+        {
+            "tag": "slurred speech",
+            "patterns": [
+                "slurred speech",
+                "Impaired speech",
+                "Incoherent speech",
+                "Mumbled speech",
+                "Garbled speech",
+                "Slushy speech",
+                "Stammering speech",
+                "Indistinct speech"
+            ],
+            "responses": [
+                "slurred_speech"
+            ]
+
+        }
+        ,
+        {
+            "tag": "knee pain",
+            "patterns": [
+                "knee pain",
+                "Knee discomfort",
+                "Knee ache",
+                "Knee soreness",
+                "Knee stiffness",
+                "Knee throbbing",
+                "Knee tenderness",
+                "Knee twinge",
+                "Knee agony",
+                "Knee irritation",
+                "Knee inflammation"
+            ],
+            "responses": [
+                "knee_pain"
+            ]
+
+        }
+        ,
+        {
+            "tag": "hip joint pain",
+            "patterns": [
+                "hip joint pain",
+                "Hip pain",
+                "Hip ache",
+                "Hip discomfort",
+                "Hip soreness",
+                "Hip inflammation",
+                "Hip stiffness",
+                "Hip swelling",
+                "Hip throbbing",
+                "Hip tenderness",
+                "Hip discomposure"
+                
+            ],
+            "responses": [
+                "hip_joint_pain"
+            ]
+
+        }
+        ,
+        {
+            "tag": "muscle weakness",
+            "patterns": [
+                "muscle weakness",
+                "Fatigue",
+                "Lack of strength",
+                "Reduced muscular power",
+                "Decreased muscle force",
+                "Weakened muscles",
+                "Diminished muscle ability",
+                "Loss of muscle strength",
+                "Impaired muscular function",
+                "Reduced physical power",
+                "Declining muscle potency"        
+            ],
+            "responses": [
+                "muscle_weakness"
+            ]
+
+        }
+        ,
+        {
+            "tag": "stiff neck",
+            "patterns": [
+                "stiff neck",
+                "Neck pain",
+                "Cervical pain",
+                "Neck stiffness",
+                "Cervical stiffness",
+                "Sore neck",
+                "Muscular neck pain",
+                "Crick in the neck",
+                "Cervical discomfort"   
+            ],
+            "responses": [
+                "stiff_neck"
+            ]
+
+        }
+        ,
+        {
+            "tag": "swelling joints",
+            "patterns": [
+                "swelling joints",
+                "Inflamed joints",
+                "Enlarged joints",
+                "Swollen joints",
+                "Puffy joints",
+                "Distended joints",
+                "Bulging joints",
+                "Engorged joints",
+                "Dilated joints",
+                "Tumid joints",
+                "Distorted joints"
+            ],
+            "responses": [
+                "swelling_joints"
+            ]
+
+        }
+        ,
+        {
+            "tag": "movement stiffness",
+            "patterns": [
+                "movement stiffness",
+                "Rigidity",
+                "Inflexibility",
+                "Tension",
+                "Resistance",
+                "Immobility",
+                "Tautness",
+                "Restriction",
+                "Hardness",
+                "Firmness",
+                "Inability to move fluidly"
+            ],
+            "responses": [
+                "movement_stiffness"
+            ]
+
+        }
+        ,
+        {
+            "tag": "spinning movements",
+            "patterns": [
+                "spinning movements",
+                "Whirling",
+                "Rotating",
+                "Twirling",
+                "Revolving",
+                "Gyration",
+                "Tumbling",
+                "Swirling"
+            ],
+            "responses": [
+                "spinning_movements"
+            ]
+
+        }
+        ,
+        {
+            "tag": "loss of balance",
+            "patterns": [
+                "loss of balance",
+                "Unsteadiness",
+                "Instability",
+                "Dizziness",
+                "Imbalance",
+                "Vertigo",
+                "Lightheadedness",
+                "Ataxia",
+                "Giddiness",
+                "Wooziness",
+                "Staggering"
+            ],
+            "responses": [
+                "loss_of_balance"
+            ]
+
+        }
+        ,
+        {
+            "tag": "unsteadiness",
+            "patterns": [
+                "unsteadiness",
+                "Instability",
+                "Tremor",
+                "Shaking",
+                "Shakiness",
+                "Unease",
+                "Balance problems",
+                "Dizziness",
+                "Lightheadedness",
+                "Vertigo",
+                "Faintness"
+            ],
+            "responses": [
+                "unsteadiness"
+            ]
+
+        }
+        ,
+        {
+            "tag": "weakness of one body side",
+            "patterns": [
+                "weakness of one body side",
+                "Hemiparesis",
+                "Unilateral paresis",
+                "Paralysis on one side of the body",
+                "Weakness affecting one side of the body"
+            ],
+            "responses": [
+                "weakness_of_one_body_side"
+            ]
+
+        }
+        ,
+        {
+            "tag": "loss of smell",
+            "patterns": [
+                "loss of smell",
+                "Anosmia",
+                "Hyposmia",
+                "Smell impairment",
+                "Olfactory dysfunction",
+                "Smell loss",
+                "Smell deficiency",
+                "Smell insensitivity",
+                "Odor deprivation",
+                "Diminished sense of smell",
+                "Reduced olfactory perception"
+            ],
+            "responses": [
+                "loss_of_smell"
+            ]
+
+        }
+        ,
+        {
+            "tag": "bladder discomfort",
+            "patterns": [
+                "bladder discomfort",
+                "Urinary discomfort",
+                "Bladder irritation",
+                "Dysuria (painful urination)",
+                "Cystitis (inflammation of the bladder)",
+                "Urinary urgency",
+                "Lower urinary tract symptoms",
+                "Pelvic discomfort",
+                "Urinary frequency",
+                "Urethral pain",
+                "Lower abdominal discomfort"
+            ],
+            "responses": [
+                "bladder_discomfort"
+            ]
+
+        }
+        ,
+        {
+            "tag": "foul smell of urine",
+            "patterns": [
+                "foul smell of urine",
+                "Strong odor of urine",
+                "Offensive scent of pee",
+                "Pungent smell of pee",
+                "Malodorous urine",
+                "Rancid stench",
+                "Fetid aroma",
+                "Repugnant odor while peeing",
+                "Putrid stink while urinating",
+                "Noxious fumes of urine",
+                "Acrid fragrance of pee"
+            ],
+            "responses": [
+                "foul_smell_of urine"
+            ]
+
+        }
+        ,
+        {
+            "tag": "continuous feel of urine",
+            "patterns": [
+                "continuous feel of urine",
+                "Urinary urgency",
+                "Urinary frequency",
+                "Overactive bladder",
+                "Bladder hypersensitivity",
+                "Urinary incontinence",
+                "Constant need to urinate",
+                "Persistent urge to urinate"
+            ],
+            "responses": [
+                "continuous_feel_of_urine"
+            ]
+
+        }
+        ,
+        {
+            "tag": "passage of gases",
+            "patterns": [
+                "passage of gases",
+                "Uncontrollable gas",
+                "Flatulence",
+                "Excessive belching",
+                "Gas expulsion",
+                "Abdominal distension"
+            ],
+            "responses": [
+                "passage_of_gases"
+            ]
+
+        }
+        ,
+        {
+            "tag": "internal itching",
+            "patterns": [
+                "internal itching",
+                "itching inside body",
+                "Pruritus",
+                "Irritation inside body",
+                "Tingling inside me",
+                "Crawling sensation in body",
+                "Itchy feeling",
+                "Irritated skin",
+                "Restless skin",
+                "Discomfort",
+                "Commotion",
+                "Uneasiness"
+            ],
+            "responses": [
+                "internal_itching"
+            ]
+
+        }
+        ,
+        {
+            "tag": "toxic look (typhos)",
+            "patterns": [
+                "toxic look",
+                "Poisonous appearance",
+                "Unhealthy countenance",
+                "Sickly appearance",
+                "Unwholesome look",
+                "Diseased aspect",
+                "typhos"
+            ],
+            "responses": [
+                "toxic_look_(typhos)"
+            ]
+
+        }
+        ,
+        {
+            "tag": "depression",
+            "patterns": [
+                "depression",
+                "Sadness",
+                "Melancholy",
+                "Despair",
+                "Gloom",
+                "Sorrow",
+                "Despondency",
+                "Dejection",
+                "Misery",
+                "Dismay"
+            ],
+            "responses": [
+                "depression"
+            ]
+
+        }
+        ,
+        {
+            "tag": "irritability",
+            "patterns": [
+                "irritability",
+                "Agitation",
+                "Restlessness",
+                "Annoyance",
+                "Frustration",
+                "Tension",
+                "Exasperation",
+                "Impatience",
+                "Vexation",
+                "Displeasure",
+                "Fretfulness"
+            ],
+            "responses": [
+                "irritability"
+            ]
+
+        }
+        ,
+        {
+            "tag": "muscle pain",
+            "patterns": [
+                "muscle pain",
+                "Myalgia",
+                "Muscular soreness",
+                "Muscle ache",
+                "Muscular discomfort",
+                "Muscular tenderness",
+                "Muscle soreness",
+                "Muscular pain",
+                "Muscle stiffness",
+                "Muscular tightness",
+                "Muscular cramping"
+            ],
+            "responses": [
+                "muscle_pain"
+            ]
+
+        }
+        ,
+        {
+            "tag": "altered sensorium",
+            "patterns": [
+                "altered sensorium",
+                "Altered mental status",
+                "Impaired consciousness",
+                "Altered cognition",
+                "Confusion",
+                "Delirium",
+                "Disorientation",
+                "Clouded consciousness",
+                "Mental confusion",
+                "Cognitive impairment",
+                "Disturbed mental state"
+            ],
+            "responses": [
+                "altered_sensorium"
+            ]
+
+        }
+        ,
+        {
+            "tag": "red spots over body",
+            "patterns": [
+                "red spots over body",
+                "Rash",
+                "Red blotches",
+                "Pinkish patches",
+                "Red blemishes",
+                "Erythema",
+                "Red discoloration",
+                "Red marks",
+                "Dermatologic eruption",
+                "Red lesions"
+            ],
+            "responses": [
+                "red_spots_over_body"
+            ]
+
+        }
+        ,
+        {
+            "tag": "belly pain",
+            "patterns": [
+                "belly pain",
+                "Abdominal pain",
+                "Stomach ache",
+                "Gastric discomfort",
+                "Tummy ache",
+                "Colic",
+                "Gastrointestinal pain",
+                "Digestive pain",
+                "Bellyache"
+            ],
+            "responses": [
+                "belly_pain"
+            ]
+
+        }
+        ,
+        {
+            "tag": "abnormal menstruation",
+            "patterns": [
+                "abnormal menstruation",
+                "irregular menstruation",
+                "Menstrual disorders",
+                "Irregular cycles or periods",
+                "Menorrhagia",
+                "Metrorrhagia",
+                "Oligomenorrhea",
+                "Amenorrhea",
+                "absence of menstruation",
+                "infrequent menstrual periods",
+                "bleeding at irregular intervals during periods",
+                "heavy bleeding during periods"
+            ],
+            "responses": [
+                "abnormal_menstruation"
+            ]
+
+        }
+        ,
+        {
+            "tag": "dischromic patches",
+            "patterns": [
+                "dischromic patches",
+                "Discolored patches",
+                "Pigmentation abnormalities",
+                "Uneven skin tone",
+                "Spots or blemishes",
+                "Hyperpigmentation",
+                "Hypopigmentation",
+                "Hyperpigmented patches",
+                "Hypopigmented patches",
+                "Dyschromia",
+                "Pigmentary changes",
+                "Patchy discoloration",
+                "Irregular pigment spots",
+                "Multicolor patches"
+            ],
+            "responses": [
+                "dischromic _patches"
+            ]
+
+        }
+        ,
+        {
+            "tag": "watering from eyes",
+            "patterns": [
+                "watering from eyes",
+                "Tearing",
+                "Watery eyes",
+                "Excessive lacrimation",
+                "Lacrimation" 
+            ],
+            "responses": [
+                "watering_from_eyes"
+            ]
+
+        }
+        ,
+        {
+            "tag": "increased appetite",
+            "patterns": [
+                "increased appetite",
+                "Greater hunger",
+                "heightened craving for food",
+                "augmented desire for eating",
+                "amplified appetite",
+                "enhanced hunger pangs",
+                "intensified urge to consume food",
+                "escalated appetite levels",
+                "expanded appetite",
+                "boosted appetite",
+                "heightened food intake desire"
+            ],
+            "responses": [
+                "increased_appetite"
+            ]
+
+        }
+        ,
+        {
+            "tag": "polyuria",
+            "patterns": [
+                "polyuria",
+                "Excessive urination",
+                "Diuresis",
+                "Urinary frequency",
+                "Increased urine output",
+                "Hyperurination"
+            ],
+            "responses": [
+                "polyuria"
+            ]
+
+        }
+        ,
+        {
+            "tag": "family history",
+            "patterns": [
+                "family history",
+                "Ancestral background",
+                "Genealogical heritage",
+                "Lineage record",
+                "Generational background",
+                "Hereditary lineage"
+            ],
+            "responses": [
+                "family_history"
+            ]
+
+        }
+        ,
+        {
+            "tag": "mucoid sputum",
+            "patterns": [
+                "mucoid sputum",
+                "Gelatinous phlegm",
+                "Viscous respiratory secretions",
+                "Thickened mucus",
+                "Sticky expectoration",
+                "Gooey respiratory discharge"
+            ],
+            "responses": [
+                "mucoid_sputum"
+            ]
+
+        }
+        ,
+        {
+            "tag": "rusty sputum",
+            "patterns": [
+                "rusty sputum",
+                "Brownish phlegm",
+                "Blood-tinged mucus",
+                "Ruddy expectoration",
+                "Hemoptysis with discoloration",
+                "Discolored coughed-up matter"
+            ],
+            "responses": [
+                "rusty_sputum"
+            ]
+
+        }
+        ,
+        {
+            "tag": "lack of concentration",
+            "patterns": [
+                "lack of concentration",
+                "Inattentiveness",
+                "Distraction",
+                "Absent-mindedness",
+                "Mind-wandering",
+                "Daydreaming",
+                "Squirrel syndrome",
+                "Focus deficit",
+                "Preoccupation",
+                "Distractibility",
+                "Restlessness"
+            ],
+            "responses": [
+                "lack_of_concentration"
+            ]
+
+        }
+        ,
+        {
+            "tag": "visual disturbances",
+            "patterns": [
+                "visual disturbances",
+                "Vision problems",
+                "Visual impairments",
+                "Visual abnormalities",
+                "Sight disturbances",
+                "Ocular disturbances",
+                "Eye problems",
+                "Visual disruptions",
+                "Visual disorders",
+                "Visual anomalies",
+                "Visual dysfunction"
+            ],
+            "responses": [
+                "visual_disturbances"
+            ]
+
+        }
+        ,
+        {
+            "tag": "receiving blood transfusion",
+            "patterns": [
+                "receiving blood transfusion",
+                "Receiving a blood infusion",
+                "Receiving a blood transfusion",
+                "Receiving a blood donation",
+                "Undergoing a blood transfusion",
+                "Receiving a blood replacement",
+                "Accepting a blood infusion",
+                "Getting a blood transfer",
+                "Being administered a blood transfusion"
+            ],
+            "responses": [
+                "receiving_blood_transfusion"
+            ]
+
+        }
+        ,
+        {
+            "tag": "receiving unsterile injections",
+            "patterns": [
+                "receiving unsterile injections",
+                "Getting contaminated injections",
+                "Receiving unsanitary injections",
+                "Getting unclean injections",
+                "Receiving non-sterile injections",
+                "Getting unhygienic injections",
+                "Receiving infected injections",
+                "Getting impure injections",
+                "Receiving dirty injections",
+                "Getting unsterilized injections",
+                "Receiving contaminated shots"
+            ],
+            "responses": [
+                "receiving_unsterile_injections"
+            ]
+
+        }
+        ,
+        {
+            "tag": "coma",
+            "patterns": [
+                "coma",
+                "Deep unconsciousness",
+                "Hebetude",
+                "Inertness",
+                "Insensibility",
+                "Lethargy",
+                "Shuteye",
+                "Sleep",
+                "Slumber",
+                "Stupor",
+                "Trance"
+            ],
+            "responses": [
+                "coma"
+            ]
+
+        }
+        ,
+        {
+            "tag": "stomach bleeding",
+            "patterns": [
+                "stomach bleeding",
+                "Gastrointestinal bleeding",
+                "Gastric bleeding",
+                "Upper gastrointestinal hemorrhage",
+                "Gastric hemorrhage",
+                "Digestive tract bleeding",
+                "Upper GI bleeding"
+            ],
+            "responses": [
+                "stomach_bleeding"
+            ]
+
+        }
+        ,
+        {
+            "tag": "distention of abdomen",
+            "patterns": [
+                "distention of abdomen",
+                "Abdominal bloating",
+                "Abdominal swelling",
+                "Abdominal enlargement",
+                "Abdominal expansion",
+                "Abdominal distension",
+                "Abdominal fullness",
+                "Abdominal puffiness",
+                "Abdominal swelling",
+                "Abdominal girth increase",
+                "Abdominal inflation"
+            ],
+            "responses": [
+                "distention_of_abdomen"
+            ]
+
+        }
+        ,
+        {
+            "tag": "history of alcohol consumption",
+            "patterns": [
+                "history of alcohol consumption",
+                "Drinking",
+                "Imbibing",
+                "Alcohol intake",
+                "Alcohol ingestion",
+                "Alcohol use",
+                "Partaking"
+            ],
+            "responses": [
+                "history_of_alcohol_consumption"
+            ]
+
+        }
+        ,
+        {
+            "tag": "fluid overload",
+            "patterns": [
+                "fluid overload",
+                "Fluid retention",
+                "Edema",
+                "Water overload",
+                "Hydremia",
+                "Hypervolemia",
+                "Excess fluid accumulation",
+                "Fluid burden",
+                "Fluid saturation"
+            ],
+            "responses": [
+                "fluid_overload.1"
+            ]
+
+        }
+        ,
+        {
+            "tag": "blood in sputum",
+            "patterns": [
+                "blood in sputum",
+                "Hemoptysis",
+                "Bloody sputum",
+                "Coughing up blood",
+                "Blood-streaked sputum",
+                "Blood-tinged sputum",
+                "Bloody phlegm"
+            ],
+            "responses": [
+                "blood_in_sputum"
+            ]
+
+        }
+        ,
+        {
+            "tag": "prominent veins on calf",
+            "patterns": [
+                "prominent veins on calf",
+                "Visible veins on calf",
+                "Bulging veins on calf",
+                "Pronounced veins on calf",
+                "Raised veins on calf",
+                "Prominent blood vessels on calf",
+                "Noticeable veins on calf",
+                "Engorged veins on calf",
+                "Protruding veins on calf",
+                "Distinct veins on calf",
+                "Conspicuous veins on calf"
+            ],
+            "responses": [
+                "prominent_veins_on_calf"
+            ]
+
+        }
+        ,
+        {
+            "tag": "palpitations",
+            "patterns": [
+                "palpitations",
+                "Trepidation",
+                "Rapid heartbeat",
+                "Irregular heartbeat",
+                "Racing heart",
+                "Fluttering heart",
+                "Heart pounding",
+                "Tachycardia",
+                "Arrhythmia",
+                "Skipped beats"
+            ],
+            "responses": [
+                "palpitations"
+            ]
+
+        }
+        ,
+        {
+            "tag": "painful walking",
+            "patterns": [
+                "painful walking",
+                "Difficulty walking",
+                "Painful gait",
+                "Limping",
+                "Struggling with walking",
+                "Discomfort while walking",
+                "Pain with each step",
+                "Walking with difficulty",
+                "Painful ambulation",
+                "Sore walking",
+                "Walking with a hobble"
+            ],
+            "responses": [
+                "painful_walking"
+            ]
+
+        }
+        ,
+        {
+            "tag": "pus filled pimples",
+            "patterns": [
+                "pus filled pimples",
+                "Pustules",
+                "Infected blemishes",
+                "Pus-filled blemishes",
+                "Inflammatory acne lesions",
+                "Pimple with pus",
+                "Abscess",
+                "Pustule",
+                "Infected pimple",
+                "Zit",
+                "Boil"
+            ],
+            "responses": [
+                "pus_filled_pimples"
+            ]
+
+        }
+        ,
+        {
+            "tag": "blackheads",
+            "patterns": [
+                "blackheads",
+                "Acne",
+                "Zits",
+                "Blemishes",
+                "Pimples",
+                "Comedones",
+                "Blocked pores",
+                "Oxidized pores",
+                "Plugged follicles"
+            ],
+            "responses": [
+                "blackheads"
+            ]
+
+        }
+        ,
+        {
+            "tag": "scurring",
+            "patterns": [
+                "scurring",
+                "Rushing",
+                "Hurrying",
+                "Scampering",
+                "Skittering",
+                "Scuttling",
+                "Fleeting sign",
+                "Transient manifestation",
+                "Ephemeral cue",
+                "Evanescent clue",
+                "Fleeting hint",
+                "Transitory indication"
+            ],
+            "responses": [
+                "scurring"
+            ]
+
+        }
+        ,
+        {
+            "tag": "skin peeling",
+            "patterns": [
+                "skin peeling",
+                "Exfoliation",
+                "Desquamation",
+                "Shedding of the skin",
+                "Sloughing of the skin",
+                "Scaling of the skin",
+                "Flaking of the skin",
+                "Peeling of the epidermis"
+            ],
+            "responses": [
+                "skin_peeling"
+            ]
+
+        }
+        ,
+        {
+            "tag": "silver like dusting",
+            "patterns": [
+                "silver like dusting",
+                "Argyria",
+                "Sprinkling",
+                "Scattering",
+                "Dusting"
+            ],
+            "responses": [
+                "silver_like_dusting"
+            ]
+
+        }
+        ,
+        {
+            "tag": "small dents in nails",
+            "patterns": [
+                "small dents in nails",
+                "Nail pitting",
+                "Nail indentations",
+                "Nail depressions",
+                "Nail dings",
+                "Divots",
+                "Furrows"
+            ],
+            "responses": [
+                "small_dents_in_nails"
+            ]
+
+        }
+        ,
+        {
+            "tag": "inflammatory nails",
+            "patterns": [
+                "inflammatory nails",
+                "Infected nails",
+                "Swollen nails",
+                "Red and inflamed nails",
+                "Painful nails",
+                "Irritated nails",
+                "Inflamed nail beds",
+                "Pus-filled nails",
+                "Tender nails"
+            ],
+            "responses": [
+                "inflammatory_nails"
+            ]
+
+        }
+        ,
+        {
+            "tag": "blister",
+            "patterns": [
+                "blister",
+                "Vesicle",
+                "Pustule",
+                "Bulla",
+                "Lesion",
+                "Sore",
+                "Swelling",
+                "Blain",
+                "Bleb"
+            ],
+            "responses": [
+                "blister"
+            ]
+
+        }
+        ,
+        {
+            "tag": "red sore around nose",
+            "patterns": [
+                "red sore around nose",
+                "Irritated skin around the nose",
+                "Inflamed skin near the nose",
+                "Redness and tenderness around the nasal area",
+                "Nose area with sore and red skin",
+                "Swollen and irritated skin around the nose"
+            ],
+            "responses": [
+                "red_sore_around_nose"
+            ]
+
+        }
+        ,
+        {
+            "tag": "yellow crust ooze",
+            "patterns": [
+                "yellow crust ooze",
+                "Yellow discharge",
+                "Yellow pus",
+                "Yellow exudate",
+                "Yellow secretion",
+                "Yellow weeping",
+                "Yellow fluid",
+                "Yellow drainage"
+            ],
+            "responses": [
+                "yellow_crust_ooze"
+            ]
+
+        }
+        
+    ]
+}

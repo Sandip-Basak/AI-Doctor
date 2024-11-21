@@ -1,0 +1,46 @@
+.contact-page
+{
+width: 100%;
+height: 100vh;;
+background-image: url('../public/5982414.jpg');
+background-size:cover;
+background-position: center center ;
+background-repeat: no-repeat;
+}
+
+.contact-page-container{
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-page-container form{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.contact-name,.contact-email{
+  width: 287px;
+  height: 36px;
+  border-radius: 12px;
+  padding-left: 20px;
+}
+.contact-message{
+  width: 287px;
+  height: 116px;
+  border-radius: 12px;
+  padding-left: 20px;
+}
+.contact-submit{
+  border-radius: 20px;
+  height: 50px;
+  font-size: 25px;
+}
+.contact-info{
+  text-align: center;
+  font-size: 45px;
+  transform: translate(0px,10px);
+  height: 100px;
+  overflow: hidden;
+}
