@@ -40,18 +40,15 @@ This project demonstrates the fusion of AI and modern web technologies to enhanc
 ## Images
 
 <div align="center">
-<img width=100% src="https://raw.githubusercontent.com/Sandip-Basak/Atmosflix/main/readme_images/Screenshot%202024-08-29%20112500.jpg" alt="App Images">
+<img width=100% src="https://raw.githubusercontent.com/Sandip-Basak/AI-Doctor/refs/heads/main/Images/Screenshot%202024-11-08%20125457.jpg" alt="App Images">
 </div>
 <br>
 <div align="center">
-<img width=100% src="https://raw.githubusercontent.com/Sandip-Basak/Atmosflix/main/readme_images/Screenshot%202024-08-29%20112527.jpg" alt="App Images">
+<img width=100% src="https://raw.githubusercontent.com/Sandip-Basak/AI-Doctor/refs/heads/main/Images/Screenshot%202024-11-08%20125601.jpg" alt="App Images">
 </div>
 <br>
 <div align="center">
-<img width=100% src="https://raw.githubusercontent.com/Sandip-Basak/Atmosflix/main/readme_images/Screenshot%202024-08-29%20112548.jpg" alt="App Images">
+<img width=100% src="https://raw.githubusercontent.com/Sandip-Basak/AI-Doctor/refs/heads/main/Images/Screenshot%202024-11-08%20125711.jpg" alt="App Images">
 </div>
 <br>
-<div align="center">
-<img width=100% src="https://raw.githubusercontent.com/Sandip-Basak/Atmosflix/main/readme_images/Screenshot%202024-08-29%20112618.jpg" alt="App Images">
-</div>
 <br>
